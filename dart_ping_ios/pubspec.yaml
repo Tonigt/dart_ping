@@ -8,7 +8,9 @@ environment:
 
 dependencies:
   dart_ping: ^6.1.0
-  flutter_icmp_ping: ^3.0.1
+  flutter_icmp_ping:
+    git:
+      url: https://github.com/Tonigt/flutter_icmp_ping.git
 
 dev_dependencies:
   flutter_lints: ^1.0.4
